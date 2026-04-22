@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes Sharing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📒 Notes Sharing App</h1>
+
+<input type="text" id="title" placeholder="Enter title">
+<input type="text" id="link" placeholder="Enter link">
+<button onclick="addNote()">Add Note</button>
+
+<br><br>
+
+<input type="text" id="search" placeholder="Search notes..." onkeyup="searchNotes()">
+<button onclick="clearAll()">Clear All</button>
+
+<ul id="notesList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
+
